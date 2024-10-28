@@ -1,9 +1,11 @@
 export const technologies = [
-  { id: 1, name: "Python" },
-  { id: 1, name: "R, SAS, SPSS, ETL" },
-  { id: 2, name: "Microsoft Excel" },
-  { id: 3, name: "PowerBI & Tableau" },
-  { id: 4, name: "AWS & Azure" },
-  { id: 5, name: "Scikit-Learn & KNIME" },
-  { id: 6, name: "MicrosoftSQL, MySQL, PostgreSQL, Oracle, Apache Spark" },
+  { id: 1, name: "JavaScript & TypeScript" },
+  { id: 2, name: "Node.js & Express" },
+  { id: 2, name: "React & Next.js" },
+  { id: 3, name: "Python" },
+  { id: 4, name: "Dart & Flutter" },
+  { id: 5, name: "Swift" },
+  { id: 6, name: "AWS & GCP" },
+  { id: 7, name: "PostgreSQL, MongoDB, FireBase" },
+  { id: 8, name: "Git, Docker, CI/CD" },
 ];
