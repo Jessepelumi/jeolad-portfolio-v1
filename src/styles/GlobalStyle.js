@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: var(--font-custom);
     font-weight: 400;
     line-height: 1.5;
+    overscroll-behavior: none;
   }
 `;
 
