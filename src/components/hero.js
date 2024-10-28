@@ -5,15 +5,14 @@ const Hero = () => {
   return (
     <StyledHero id="hero">
       <div>
-        <span>Hello, my name is</span>
-        <h2>Gideon K. IDOWU</h2>
-        <h3>I turn data into Gold.</h3>
+        <span>Hi, my name is</span>
+        <h2>Jesse ADESINA.</h2>
+        <h3>I love learning and building.</h3>
         <p>
-          I am a <span>Data Polymath</span> passionate about transforming complex information
-          into user-centered insights that are actionable and accessible.
+          I am a <span>Full-stack Software Engineer</span> passionate about building user-centered digital products that are functional and simple.
         </p>
         <Button
-          text={"View Résumé"}
+          text={"Download Résumé"}
           link={
             "https://docs.google.com/document/d/10jJZ4DieWB0l-n6ZDaZcLPOzDwZaHpNjP2sTOvpYzAI/edit?usp=sharing"
           }
