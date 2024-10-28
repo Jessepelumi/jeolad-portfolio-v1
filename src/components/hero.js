@@ -9,14 +9,11 @@ const Hero = () => {
         <h2>Jesse ADESINA.</h2>
         <h3>I love learning and building.</h3>
         <p>
-          I am a <span>Full-stack Software Engineer</span> passionate about building user-centered digital products that are functional and simple.
+          I am a <span>Full-stack Software Engineer</span> passionate about
+          building user-centered digital products that are functional and
+          simple.
         </p>
-        <Button
-          text={"Download Résumé"}
-          link={
-            "https://docs.google.com/document/d/10jJZ4DieWB0l-n6ZDaZcLPOzDwZaHpNjP2sTOvpYzAI/edit?usp=sharing"
-          }
-        />
+        <Button text={"Download Résumé"} link={"/Resume - JEOLAD.pdf"} />
       </div>
     </StyledHero>
   );
