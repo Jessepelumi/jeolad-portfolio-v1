@@ -1,5 +1,5 @@
 {
-  "name": "kolamide-portfolio",
+  "name": "jeolad-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,6 +44,6 @@
   },
   "description": "Author: Jesse Adesina",
   "main": "index.js",
-  "author": "Kolamide Idowu | Jesse Adesina",
+  "author": "Jesse Adesina",
   "license": "MIT"
 }
