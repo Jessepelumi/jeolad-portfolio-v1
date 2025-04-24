@@ -7,18 +7,23 @@ const ProjectCard = ({
     <StyledProjectCard
       layout={id % 2 === 0 && "rtl"}
       text={id % 2 === 0 && "left"}
+      direction={id % 2 !== 0 && "row"}
       backgroundimg={image}
     >
       <img src={require(`../images/${image}`)} alt={project_title} />
       <aside>
-        <h2>{project_title}</h2>
-        <div>{description}</div>
+        <article>
+          <h2>{project_title}</h2>
+          <div>{description}</div>
+        </article>
+
         <section>
           <b>
             {tools.map((tool, index) => (
               <p key={index}>{tool}</p>
             ))}
           </b>
+
           <i>
             {links.map((link, index) => (
               <a href={link.link} key={index} target="_blank" rel="noreferrer">
