@@ -4,7 +4,6 @@ import { media } from "./breakpoints";
 export const StyledProject = styled.section`
   padding-inline: var(--padding-body);
   padding-block: var(--padding-body-sm);
-  text-align: center;
   h2 {
     text-align: start;
     color: var(--purple);
@@ -14,7 +13,6 @@ export const StyledProject = styled.section`
   aside {
     h3 {
       color: var(--white);
-      text-align: center;
       font-size: var(--fs-md);
       padding: var(--padding-body-sm) 0 var(--padding-subject);
     }
