@@ -36,6 +36,7 @@ export const StyledProjectCard = styled.div`
       background-color: var(--black);
       padding: var(--button-padding);
       border-bottom: 3px solid var(--purple);
+      text-align: ${({ text }) => text || "left"};
     }
     section {
       b {
@@ -44,13 +45,15 @@ export const StyledProjectCard = styled.div`
         flex-wrap: wrap;
         gap: 10px;
         padding-top: 1%;
-        flex-direction: row-reverse;
+        justify-content: ${({ text }) => text || "right"};
+        flex-direction: ${({ direction }) => direction || "row-reverse"};
       }
       i {
         display: flex;
         gap: 10px;
         padding-top: 1%;
-        flex-direction: row-reverse;
+        justify-content: ${({ text }) => text || "right"};
+        flex-direction: ${({ direction }) => direction || "row-reverse"};
         a {
           text-decoration: none;
           color: var(--white);
@@ -83,7 +86,9 @@ export const StyledProjectCard = styled.div`
     display: none;
   }
   aside {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-top: 0;
     height: 100%;
     h2 {
@@ -95,11 +100,10 @@ export const StyledProjectCard = styled.div`
       padding: var(--button-padding);
       border-bottom: none;
       text-align: left;
-      margin-bottom: 50px;
+      
     }
     section {
-      position: absolute;
-      bottom: 0;
+      
       padding-block: 3%;
       width: 100%;
       b {
@@ -108,7 +112,7 @@ export const StyledProjectCard = styled.div`
         gap: 10px;
         padding-top: 1%;
         padding-left: var(--button-padding);
-        flex-direction: row;
+        flex-direction: ${({ direction }) => direction || "row-reverse"};
         justify-content: left;
       }
       i {
@@ -116,7 +120,7 @@ export const StyledProjectCard = styled.div`
         gap: 10px;
         padding-top: 3%;
         padding-left: var(--button-padding);
-        flex-direction: row;
+        flex-direction: ${({ direction }) => direction || "row-reverse"};
         justify-content: left;
       }
     }
