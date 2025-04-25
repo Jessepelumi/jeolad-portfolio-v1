@@ -30,7 +30,7 @@ export const StyledExperience = styled.div`
 
 export const StyledTechnologies = styled.div`
   white-space: wrap;
-  padding-bottom: var(--padding-subject);
+  padding-bottom: 35px;
   span {
     display: inline-block;
     margin-bottom: 5px;
