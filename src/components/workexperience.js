@@ -2,9 +2,15 @@ import { useState } from "react";
 import { companies } from "../content/companies";
 import { StyledWorkExperience } from "../styles/workexperience.style";
 import { CaretRight } from "@phosphor-icons/react";
+import getTimeline from "../hooks/getTimeline";
 
 const WorkExperience = () => {
   const [selectedCompany, setSelectedCompany] = useState(companies[0]);
+
+  const { label: timeline, duration } = getTimeline(
+    selectedCompany.startDate,
+    selectedCompany.endDate
+  );
 
   return (
     <StyledWorkExperience>
@@ -28,7 +34,12 @@ const WorkExperience = () => {
             @{selectedCompany.companyName}
           </a>
         </div>
-        <p>{selectedCompany.timeline}</p>
+
+        <p>
+          {timeline}
+          <span>{` | ${duration}`}</span>
+        </p>
+
         {selectedCompany.details.map((detail, index) => (
           <ul>
             <li key={index}>
