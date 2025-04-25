@@ -1,5 +1,5 @@
 import useViewMoreState from "../hooks/useViewMoreState";
-import { projectlist } from "../static/projectlist";
+import { projectlist } from "../content/projectlist";
 import { MoreProjects, StyledProject } from "../styles/project.style";
 import MoreProjectCard from "./sections/moreprojectcard";
 import ProjectCard from "./sections/projectcard";

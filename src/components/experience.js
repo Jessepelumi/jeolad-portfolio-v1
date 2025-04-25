@@ -1,4 +1,4 @@
-import { technologies } from "../static/technologies";
+import { technologies } from "../content/technologies";
 import {
   StyledExperience,
   StyledTechnologies,

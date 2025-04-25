@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { companies } from "../static/companies";
+import { companies } from "../content/companies";
 import { StyledWorkExperience } from "../styles/workexperience.style";
 import { CaretRight } from "@phosphor-icons/react";
 
