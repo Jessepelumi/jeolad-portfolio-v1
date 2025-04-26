@@ -57,7 +57,6 @@ export const StyledWorkExperience = styled.div`
       li {
         display: flex;
         gap: 5px;
-        align-items: center;
         padding-bottom: 10px;
       }
     }
