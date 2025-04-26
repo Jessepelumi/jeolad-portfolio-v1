@@ -21,7 +21,7 @@ export const projectlist = [
   },
   {
     id: 2,
-    image: "eclipsered-project.png",
+    image: "eclipsered.png",
     project_title: "EclipseRed",
     description:
       "A custom Visual Studio Code theme designed for developers who love dark interfaces, featuring a striking red accent inspired by the beauty of an eclipse. EclipseRed offers a visually immersive coding experience and has garnered over 400 downloads",
