@@ -2,6 +2,7 @@ import {
   GithubLogo,
   LinkedinLogo,
   XLogo,
+  DevToLogo,
 } from "@phosphor-icons/react";
 import { StyledSocials } from "../../styles/socials.style";
 
@@ -18,6 +19,7 @@ const Socials = () => {
             <GithubLogo size={24} />
           </a>
         </li>
+
         <li>
           <a
             href="https://www.linkedin.com/in/jeolad/"
@@ -27,16 +29,18 @@ const Socials = () => {
             <LinkedinLogo size={24} />
           </a>
         </li>
+
         <li>
-          <a
-            href="https://x.com/jeolad_"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://x.com/jeolad_" target="_blank" rel="noreferrer">
             <XLogo size={24} />
           </a>
         </li>
-        
+
+        <li>
+          <a href="https://dev.to/jeolad" target="_blank" rel="noreferrer">
+            <DevToLogo size={24} />
+          </a>
+        </li>
       </ul>
     </StyledSocials>
   );
