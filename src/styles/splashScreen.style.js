@@ -35,7 +35,7 @@ export const StyledSplashScreen = styled.section`
   .progress-bar {
     position: relative;
     overflow: hidden;
-    width: 150px;
+    width: 200px;
     height: 5px;
     background-color: var(--gray);
     transition: width 30s ease;
@@ -45,5 +45,13 @@ export const StyledSplashScreen = styled.section`
       width: ${({ progress }) => progress}%;
       background-color: var(--purple);
     }
+  }
+
+  span {
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: var(--purple);
   }
 `;

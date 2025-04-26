@@ -12,6 +12,8 @@ const SplashScreen = ({ progress, mounted, stopped }) => {
       <div className="progress-bar">
         <div className="progress"></div>
       </div>
+
+      <span></span>
     </StyledSplashScreen>
   );
 };
