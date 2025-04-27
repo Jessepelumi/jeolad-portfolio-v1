@@ -9,26 +9,37 @@ const About = () => {
       <section>
         <div>
           <p>
-            I specialize in building <span>scalable</span>, <span>robust</span>,
-            and <span>user-focused</span> applications. I have a knack for
-            simplicity while maintaining elegance, functionality, and technical
-            depth.
+            I'm a software engineer passionate about building{" "}
+            <span>scalable</span>, <span>robust</span>, and{" "}
+            <span>user-focused</span> applications. I have a knack for crafting
+            simple yet elegant solutions — creating experiences that not only
+            look great but are meticulously built for <span>functionality</span>
+            , <span>performance</span>, and <span>usability</span>.
           </p>
           <p>
-            I thrive in collaborative environments, having both led and
-            contributed to successful teams.
+            I'm committed to <span>continuous learning</span> and{" "}
+            <span>growth</span>. I'm excited to take on new challenges, explore
+            emerging technologies, and push the boundaries of my skills to build
+            even better, more impactful solutions.
           </p>
           <p>
-            I'm always looking to expand my network and explore new
-            opportunities for collaboration. Feel free to send me an email or
-            reach out to me on LinkedIn or X.
+            I thrive in collaborative environments, where I've had the
+            opportunity to contribute to high-performing teams. I value{" "}
+            <span>clear communication</span>, <span>shared vision</span>, and a
+            strong sense of <span>ownership</span> — believing that great
+            products are built through collective effort.
+          </p>
+          <p>
+            I'm looking to expand my network and explore new opportunities for
+            collaboration. You can send me an email or reach out to me via
+            LinkedIn.
           </p>
           <p>
             In case you're wondering, <span>JEOLAD</span> is short for{" "}
-            <span>Je</span>
-            <i>sse</i> <span>Ad</span>
-            <i>esina</i> <span>Ol</span>
-            <i>uwapelumi</i>.
+            <span>JE</span>
+            <i>sse</i> <span>OL</span>
+            <i>uwapelumi</i> <span>AD</span>
+            <i>esina</i>.
           </p>
         </div>
         <StyledAboutImage>
