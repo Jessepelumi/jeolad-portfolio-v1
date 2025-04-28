@@ -1,8 +1,6 @@
 import { StyledFooter } from "../styles/footer.style";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
   return (
     <StyledFooter>
       <div>
@@ -15,7 +13,7 @@ const Footer = () => {
           Jesse Adesina
         </a>
       </div>
-      <div>&copy; {currentYear}. All rights reserved.</div>
+      <div>&copy; 2024. All rights reserved.</div>
     </StyledFooter>
   );
 };
