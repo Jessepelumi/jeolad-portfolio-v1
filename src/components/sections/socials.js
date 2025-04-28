@@ -2,7 +2,7 @@ import {
   GithubLogo,
   LinkedinLogo,
   XLogo,
-  DevToLogo,
+  Hash,
 } from "@phosphor-icons/react";
 import { StyledSocials } from "../../styles/socials.style";
 
@@ -37,8 +37,8 @@ const Socials = () => {
         </li>
 
         <li>
-          <a href="https://dev.to/jeolad" target="_blank" rel="noreferrer">
-            <DevToLogo size={24} />
+          <a href="https://jeolad.hashnode.dev/" target="_blank" rel="noreferrer">
+            <Hash size={24} />
           </a>
         </li>
       </ul>
