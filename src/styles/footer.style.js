@@ -14,7 +14,8 @@ export const StyledFooter = styled.div`
   a {
     color: var(--gray);
     &:hover {
-      color: var(--purple);
+      color: var(--white);
+      text-decoration-color: var(--purple);
     }
   }
 
