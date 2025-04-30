@@ -3,7 +3,8 @@ import { media } from "./breakpoints";
 
 export const StyledNavbar = styled.div`
   padding: 1rem 8.33vw;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   display: flex;
   justify-content: space-between;
@@ -82,7 +83,7 @@ export const StyledMenu = styled.aside`
   height: 100vh;
   position: fixed;
   transition: 0.1s;
-  z-index: 1000;
+  z-index: 10;
   visibility: hidden;
 
   &.visible {
@@ -107,7 +108,9 @@ export const StyledMenu = styled.aside`
     nav {
       height: 100%;
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
       padding-top: 20%;
       font-size: var(--fs-md);
       ul {
